@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitler Footage Collection</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function copyToClipboard(link) {
+            navigator.clipboard.writeText(link);
+            alert("Link copied: " + link);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Hitler Footage Collection</h1>
+        
+        <div class="video-list">
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=FJ3N_2r6R-o')">Speech at Krupp Factory (1935)</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=FJ3N_2r6R-o')">📋 Copy Link</span>
+            </div>
+
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=tn6xujf2Jec')">A Life in Pictures</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=tn6xujf2Jec')">📋 Copy Link</span>
+            </div>
+
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=RgH2k9otvQQ')">New Footage</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=RgH2k9otvQQ')">📋 Copy Link</span>
+            </div>
+
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=eypJfOKeSJU')">Dancing and Playing (1930s)</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=eypJfOKeSJU')">📋 Copy Link</span>
+            </div>
+
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=t992mKgw60c')">Speeches - Stock Footage</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=t992mKgw60c')">📋 Copy Link</span>
+            </div>
+
+            <div class="video-item">
+                <button onclick="window.open('https://www.youtube.com/watch?v=elDzoxjc9XQ')">Hitler in Colour</button>
+                <span onclick="copyToClipboard('https://www.youtube.com/watch?v=elDzoxjc9XQ')">📋 Copy Link</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
